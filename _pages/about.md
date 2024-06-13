@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: **徐武将**  #:joy:  # <a href='#'>武将</a> 徐.
+subtitle: 徐武将  #:joy:  # <a href='#'>武将</a> 徐.
 
 profile:
   align: right
