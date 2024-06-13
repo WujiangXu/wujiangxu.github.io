@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: **徐武将**  :joy:  # <a href='#'>武将</a> 徐.
+subtitle: **徐武将**  #:joy:  # <a href='#'>武将</a> 徐.
 
 profile:
   align: right
@@ -14,14 +14,14 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 In Fall 2024, I will be a Ph.D. student at [Rutgers University](https://newbrunswick.rutgers.edu/) and am forunate to be supervised by Prof. [Yongfeng Zhang](http://www.yongfeng.me/). Currently, I am a senior machine learning engineer at FinTech company [Ant Group](https://www.antgroup.com/en). 
 
-My research interests lie at LLMs for Recommendation System, Cross-domain Recommendation.  
+My research interests lie at LLMs for Recommendation System, Cross-domain Recommendation. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
