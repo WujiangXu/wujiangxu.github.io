@@ -283,8 +283,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Wujiang]
-  first_name: [Xu]
+  last_name: [Xu]
+  first_name: [Wujiang]
 
   style: apa
   locale: en
