@@ -6,7 +6,7 @@ subtitle: 徐武将  #:joy:  # <a href='#'>武将</a> 徐.
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: WechatIMG794.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
