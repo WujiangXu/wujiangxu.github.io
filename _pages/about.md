@@ -17,6 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<!-- My name is Wujiang Xu, first name means the same as general in Chinese. -->
 In the fall of 2024, Wujiang will embark on my Ph.D. journey at [Rutgers University](https://newbrunswick.rutgers.edu/), where I am honored to be under the guidance of Prof. [Yongfeng Zhang](http://www.yongfeng.me/). Presently, I hold the position of Senior Machine Learning Engineer at the FinTech giant [Ant Group](https://www.antgroup.com/en). 
 
 My research interests lie at LLMs for Recommendation System, Cross-domain Recommendation. 
