@@ -16,10 +16,9 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+I am a first-year Ph.D. student at Rutgers University, working with Prof. [Yongfeng Zhang](http://www.yongfeng.me/). Previously, I was a Senior Machine Learning Engineer at [Ant Group](https://www.antgroup.com/en).
 
-In the fall of 2024, Wujiang will embark on my Ph.D. journey at [Rutgers University](https://newbrunswick.rutgers.edu/), where I am honored to be under the guidance of Prof. [Yongfeng Zhang](http://www.yongfeng.me/). Presently, I hold the position of Senior Machine Learning Engineer at the FinTech giant [Ant Group](https://www.antgroup.com/en). 
-
-My research interests lie at LLMs for Recommendation System, Cross-domain Recommendation. 
+My research interests lie at LLM Agents, LLMs for RecSys and Cross-domain Recommendation. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
