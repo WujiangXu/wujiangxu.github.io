@@ -4,12 +4,15 @@ title: about
 permalink: /
 subtitle: Wujiang Xu 徐武将  #:joy:  # <a href='#'>武将</a> 徐.
 
+# profile:
+#   align: left
+#   image: WechatIMG794.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+
 profile:
   align: left
-  image: WechatIMG794.jpg
-  image_circular: false # crops the image to make it circular
   more_info: >
-
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
