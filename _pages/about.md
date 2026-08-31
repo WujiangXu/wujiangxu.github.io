@@ -19,7 +19,7 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a third-year Ph.D. student at Rutgers University working with Prof. [Dimitris N. Metaxas](https://scholar.google.com/citations?user=a7VNhCIAAAAJ). Previously, I worked with Prof. Yongfeng Zhang (May 2024–June 2025). Before joining Rutgers, I was a Senior Machine Learning Engineer at [Ant Group](https://www.antgroup.com/en), with MLE internship experience at Tencent, ByteDance, and Ant Group. I joined **Meta as a Research Intern in May 2026**.
+I am a third-year Ph.D. student at Rutgers University working with Prof. [Dimitris N. Metaxas](https://scholar.google.com/citations?user=a7VNhCIAAAAJ). Previously, I worked with Prof. Yongfeng Zhang (May 2024–June 2025). Before joining Rutgers, I was a Senior Machine Learning Engineer at [Ant Group](https://www.antgroup.com/en), with MLE internship experience at Tencent, ByteDance, and Ant Group. I worked as a **Research Intern at Meta** (May–Aug 2025; May–Dec 2026).
 
 My research interests focus on Reinforcement Learning and LLM Agents, especially agentic memory, agent harness / scaffolding, and RL for LLM agents. If you are interested in my research or potential collaboration opportunities, please feel free to contact me by email.
 
