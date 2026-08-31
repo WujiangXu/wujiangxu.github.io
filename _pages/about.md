@@ -19,12 +19,11 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a first-year Ph.D. student at Rutgers University. Previously, I worked with Prof. Yongfeng Zhang (May 2024–June 2025). I am currently working with Prof. [Dimitris N. Metaxas
-](https://scholar.google.com/citations?user=a7VNhCIAAAAJ). Previously, I was a Senior Machine Learning Engineer at [Ant Group](https://www.antgroup.com/en). I am currently a Research Intern at Meta, with previous experience as a Machine Learning Engineer (MLE) Intern at Tencent, ByteDance, and Ant Group.
+I am a third-year Ph.D. student at Rutgers University working with Prof. [Dimitris N. Metaxas](https://scholar.google.com/citations?user=a7VNhCIAAAAJ). Previously, I worked with Prof. Yongfeng Zhang (May 2024–June 2025). Before joining Rutgers, I was a Senior Machine Learning Engineer at [Ant Group](https://www.antgroup.com/en), with MLE internship experience at Tencent, ByteDance, and Ant Group. I joined **Meta as a Research Intern in May 2026**.
 
-My research interests focus on Reinforcement Learning and LLM Agents. If you are interested in my research or potential collaboration opportunities, please feel free to contact me by email.
+My research interests focus on Reinforcement Learning and LLM Agents, especially agentic memory, agent harness / scaffolding, and RL for LLM agents. If you are interested in my research or potential collaboration opportunities, please feel free to contact me by email.
 
-I am actively seeking research internship opportunities to further advance my work in LLM Agents.
+I am currently looking for **full-time positions** and **research internships** — please reach out if there is a fit!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
