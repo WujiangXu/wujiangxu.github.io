@@ -58,21 +58,23 @@
   organization={IEEE}
 }
 
-@article{xu2023towards,
+@inproceedings{xu2023towards,
   title={Towards open-world cross-domain sequential recommendation: A model-agnostic contrastive denoising approach},
-  author={Xu, Wujiang and Ning, Xuying and Lin, Wenfang and Ha, Mingming and Ma, Qiongxu and Chen, Linxun and Han, Bing and Luo, Minnan},
-  journal={arXiv preprint arXiv:2311.04760},
+  author={Xu, Wujiang and Ning, Xuying and Lin, Wenfang and Ha, Mingming and Ma, Qiongxu and Liang, Qianqiao and Tao, Xuewen and Chen, Linxun and Han, Bing and Luo, Minnan},
+  booktitle={Machine Learning and Knowledge Discovery in Databases (ECML-PKDD 2024)},
+  pages={161--179},
+  url={https://doi.org/10.1007/978-3-031-70341-6_10},
   arxiv={2311.04760},
   code={https://github.com/WujiangXu/MACD},
-  year={2023}
+  year={2024}
 }
 
-@article{xu2024slmrec,
-  title={SLMRec: Empowering Small Language Models for Sequential Recommendation},
-  author={Xu, Wujiang and Liang, Zujie and Han, Jiaojiao and Ning, Xuying and Lin, Wenfang and Chen, Linxun and Wei, Feng and Zhang, Yongfeng},
+@inproceedings{xu2024slmrec,
+  title={{SLMRec}: Distilling Large Language Models into Small for Sequential Recommendation},
+  author={Xu, Wujiang and Wu, Qitian and Liang, Zujie and Han, Jiaojiao and Ning, Xuying and Shi, Yunxiao and Lin, Wenfang and Zhang, Yongfeng},
   booktitle={International Conference on Learning Representations (ICLR 2025)},
   arxiv={2405.17890},
-  year={2024},
+  year={2025},
   code={https://github.com/WujiangXu/SLMRec},
   url={https://openreview.net/forum?id=G4wARwjF8M},
   selected={true},
@@ -81,18 +83,21 @@
 
 @inproceedings{ning2024information,
   title={i$^2$VAE: Interest Information Augmentation with Variational Regularizers for Cross-Domain Sequential Recommendation},
-  author={Ning, Xuying and Xu, Wujiang and Wei, Tianxin and Liu, Xiaolei and Zhang, Yongfeng},
+  author={Ning, Xuying and Xu, Wujiang and Wei, Tianxin and Liu, Xiaolei},
   booktitle={Uncertainty in Artificial Intelligence (UAI 2025)},
+  pages={3235--3251},
   code={https://github.com/WujiangXu/IM-VAE},
-  url={https://arxiv.org/pdf/2405.20710},
+  url={https://proceedings.mlr.press/v286/ning25a.html},
   arxiv={2405.20710},
   year={2025}
 }
 
 @inproceedings{ha2024fine,
   title={Fine-Grained Dynamic Framework for Bias-Variance Joint Optimization on Data Missing Not at Random},
-  author={Ha, Mingming and Tao, Xuewen and Lin, Wenfang and Ma, Qionxu and Xu, Wujiang and Chen, Linxun},
+  author={Ha, Mingming and Tao, Xuewen and Lin, Wenfang and Ma, Qiongxu and Xu, Wujiang and Chen, Linxun},
   booktitle={Advances in Neural Information Processing Systems (NeurIPS 2024)},
+  url={https://papers.nips.cc/paper_files/paper/2024/hash/bc75254bc4b8b42f401d0ab5d6e9aa4b-Abstract-Conference.html},
+  arxiv={2405.15403},
   year={2024}
 }
 
@@ -112,41 +117,47 @@
     title = {iAgent: LLM Agent as a Shield between User and Recommender Systems},
     author = {Xu, Wujiang and Shi, Yunxiao and Liang, Zujie and Ning, Xuying and Mei, Kai and Wang, Kun and Zhu, Xi and Xu, Min and Zhang, Yongfeng},
     booktitle = {Findings of the Association for Computational Linguistics ACL 2025},
+    pages = {18056--18084},
     code={https://github.com/agiresearch/iAgent},
-    url={https://arxiv.org/pdf/2502.14662v2},
+    url={https://aclanthology.org/2025.findings-acl.928/},
     arxiv={2502.14662},
     year = {2025}
 }
 
 @article{shi2024beyond,
   title={Beyond KAN: Introducing KarSein for Adaptive High-Order Feature Interaction Modeling in CTR Prediction},
-  author={Shi, Yunxiao and Xu, Wujiang and Jin, Mingyu and Zhang, Haimin and Wu, Qiang and Zhang, Yongfeng and Xu, Min},
-  journal={arXiv preprint arXiv:2408.08713},
-  url={https://arxiv.org/pdf/2408.08713},
+  author={Shi, Yunxiao and Xu, Wujiang and Zhang, Haimin and Wu, Qiang and Xu, Min},
+  journal={ACM Transactions on Information Systems},
+  volume={44},
+  pages={88:1--88:27},
+  url={https://doi.org/10.1145/3799425},
   arxiv={2408.08713},
-  year={2024}
+  year={2026}
 }
 
 @inproceedings{shi2025personax,
   title={PersonaX: A Recommendation Agent Oriented User Modeling Framework for Long Behavior Sequence},
   author={Shi, Yunxiao and Xu, Wujiang and Zhang, Zeqi and Zi, Xing and Wu, Qiang and Xu, Min},
   booktitle = {Findings of the Association for Computational Linguistics ACL 2025},
-  url={https://arxiv.org/pdf/2503.02398},
+  pages = {5764--5787},
+  url={https://aclanthology.org/2025.findings-acl.300/},
   arxiv={2503.02398},
   year={2025}
 }
 
 @article{mei2025smart,
-  title={Smart Routing: Cost-Effective Multi-LLM Serving for Multi-Core AIOS},
-  author={Mei, Kai and Xu, Wujiang and Lin, Shuhang and Zhang, Yongfeng},
-  journal={arXiv preprint arXiv:2502.20576},
-  url={https://arxiv.org/pdf/2502.20576},
+  title={{OmniRouter}: Budget and Performance Controllable Multi-{LLM} Routing},
+  author={Mei, Kai and Xu, Wujiang and Guo, Minghao and Lin, Shuhang and Zhang, Yongfeng},
+  journal={ACM SIGKDD Explorations Newsletter},
+  volume={27},
+  pages={107--116},
+  url={https://doi.org/10.1145/3787470.3787480},
   arxiv={2502.20576},
   year={2025}
 }
 
 @article{wujiang2025epo,
-  title={{EPO}: Entropy-regularized Policy Optimization for {LLM} Agent Reinforcement Learning},
+  title={{EPO}: Entropy-regularized Policy Optimization for {LLM} Agents Reinforcement Learning},
   author={Xu, Wujiang and Zhao, Wentian and Wang, Zhenting and Li, Yu-Jhe and Jin, Can and Jin, Mingyu and Mei, Kai and Wan, Kun and Metaxas, Dimitris N.},
   journal={arXiv preprint arXiv:2509.22576},
   year={2025},
@@ -159,16 +170,18 @@
 
 @inproceedings{xu2026ael,
   title={{AEL}: Evolving Agent Harness in Open-Ended Environments},
-  author={Xu, Wujiang and Han, Jiaojiao and Guo, Meng and Mei, Kai and Zhu, Xi and Zhang, Haimin and Metaxas, Dimitris N.},
+  author={Xu, Wujiang and Han, Jiaojiao and Guo, Minghao and Mei, Kai and Zhu, Xi and Zhang, Han and Metaxas, Dimitris N.},
   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2026},
   year={2026},
+  url={https://arxiv.org/pdf/2604.21725},
+  arxiv={2604.21725},
   selected={true},
   preview={ael.png}
 }
 
 @article{xu2026memgym,
   title={{MemGym}: A Long-Horizon Memory Environment for {LLM} Agents},
-  author={Xu, Wujiang and Wang, Yu and Mei, Kai and Liang, Zujie and Wang, Zhenting and Jin, Mingyu and Zhang, Haimin and Zhang, Shunxing and Metaxas, Dimitris N.},
+  author={Xu, Wujiang and Wang, Yu and Mei, Kai and Liang, Kaiqu and Wang, Zhenting and Jin, Mingyu and Zhang, Han and Zhang, Shi-Xiong and Hua, Wenyue and Sahu, Sambit and Metaxas, Dimitris N.},
   journal={arXiv preprint arXiv:2605.20833},
   year={2026},
   arxiv={2605.20833},
@@ -178,49 +191,57 @@
 }
 
 @inproceedings{mei2025aios,
-  title={{LLM} Agent Operating System},
-  author={Mei, Kai and Xi, Zhiheng and Xu, Wujiang and Hu, Wenyue and Jin, Mingyu and Zhang, Li and Xu, Shuyuan and Ye, Rong and Ge, Ying and Zhang, Yongfeng},
+  title={{AIOS}: {LLM} Agent Operating System},
+  author={Mei, Kai and Zhu, Xi and Xu, Wujiang and Hua, Wenyue and Jin, Mingyu and Li, Zelong and Xu, Shuyuan and Ye, Ruosong and Ge, Yingqiang and Zhang, Yongfeng},
   booktitle={Conference on Language Modeling (COLM 2025)},
   year={2025},
-  url={https://arxiv.org/abs/2411.02050},
-  arxiv={2411.02050}
+  url={https://arxiv.org/abs/2403.16971},
+  arxiv={2403.16971}
 }
 
 @inproceedings{jin2025massive,
   title={Massive Values in Self-Attention Modules are the Key to Contextual Knowledge Understanding},
-  author={Jin, Mingyu and Mei, Kai and Xu, Wujiang and Sun, Meng and Tang, Ruixiang and Du, Mengnan and Liu, Zihao and Zhang, Yongfeng},
+  author={Jin, Mingyu and Mei, Kai and Xu, Wujiang and Sun, Mingjie and Tang, Ruixiang and Du, Mengnan and Liu, Zirui and Zhang, Yongfeng},
   booktitle={International Conference on Machine Learning (ICML 2025)},
   year={2025},
-  url={https://arxiv.org/abs/2502.21910},
-  arxiv={2502.21910}
+  url={https://proceedings.mlr.press/v267/jin25f.html},
+  arxiv={2502.01563}
 }
 
 @inproceedings{zhu2026llmgnn,
   title={{LLM} as {GNN}: Graph Vocabulary Learning for Text-Attributed Graph Foundation Models},
-  author={Zhu, Xi and Xue, Hanshi and Zhao, Zheng and Xu, Wujiang and Huang, Junjie and Guo, Meng and Wang, Qian and Zhou, Kaixiong and Razzak, Imran and Trajcevski, Goce and Zhang, Yongfeng},
+  author={Zhu, Xi and Xue, Haochen and Zhao, Ziwei and Xu, Wujiang and Huang, Jingyuan and Guo, Minghao and Wang, Qifan and Zhou, Kaixiong and Razzak, Imran and Zhang, Yongfeng},
   booktitle={Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)},
-  year={2026}
+  year={2026},
+  url={https://arxiv.org/abs/2503.03313},
+  arxiv={2503.03313}
 }
 
 @inproceedings{wu2026gam,
   title={{GAM}: Hierarchical Graph-based Agentic Memory for {LLM} Agents},
-  author={Wu, Zhenting and Zhang, Haimin and Lin, Fang and Xu, Wujiang and Xu, Xiaoyi and Chen, Yuxuan and Zou, Hao-Peng and Chen, Shuo and Zhang, Yongfeng},
+  author={Wu, Zhaofen and Zhang, Hanrong and Lin, Fulin and Xu, Wujiang and Xu, Xinran and Chen, Yankai and Zou, Henry Peng and Chen, Shaowen and Zhang, Weizhi and Liu, Xue and Yu, Philip S. and Wang, Hongwei},
   booktitle={Annual Meeting of the Association for Computational Linguistics (ACL 2026)},
-  year={2026}
+  pages={34647--34664},
+  year={2026},
+  url={https://arxiv.org/abs/2604.12285},
+  arxiv={2604.12285}
 }
 
 @inproceedings{liang2026imcts,
   title={{I-MCTS}: Enhancing Agentic {AutoML} via Introspective Monte Carlo Tree Search},
-  author={Liang, Zujie and Wei, Feng and Xu, Wujiang and Chen, Linxun and Qian, Yuxin and Wu, Xingxuan},
+  author={Liang, Zujie and Wei, Feng and Xu, Wujiang and Chen, Lin and Qian, Yuxi and Wu, Xinhui},
   booktitle={Findings of the European Chapter of the Association for Computational Linguistics (EACL 2026)},
-  year={2026}
+  pages={189--210},
+  year={2026},
+  url={https://arxiv.org/abs/2502.14693},
+  arxiv={2502.14693}
 }
 
 @inproceedings{shi2026agentselect,
   title={{AgentSelect}: Benchmark for Narrative Query-to-Agent Recommendation},
-  author={Shi, Yunxiao and Xu, Wujiang and Chen, Tian and Shang, Haohao and Yang, Lin and Wan, Yao and Cao, Zheng and Zi, Xing and Metaxas, Dimitris N. and Xu, Min},
+  author={Shi, Yunxiao and Xu, Wujiang and Chen, Tingwei and Shang, Haoning and Yang, Ling and Wan, Yunfeng and Cao, Zhuo and Zi, Xing and Metaxas, Dimitris N. and Xu, Min},
   booktitle={International Conference on Machine Learning (ICML 2026)},
-  year={2026}
+  year={2026},
+  url={https://arxiv.org/abs/2603.03761},
+  arxiv={2603.03761}
 }
-
-

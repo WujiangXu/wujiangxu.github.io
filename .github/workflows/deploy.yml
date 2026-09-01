@@ -73,11 +73,37 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Install ImageMagick 🖼️
+        # jekyll-imagemagick generates the responsive .webp variants referenced by
+        # _includes/figure.liquid. ImageMagick is no longer preinstalled on the
+        # ubuntu-24.04 runner image, so without this the <source srcset> entries
+        # 404 and every <picture> on the site renders broken.
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick libmagickcore-6.q16-6-extra webp
+          convert -version
+          convert -list format | grep -i webp || echo "::warning::ImageMagick has no WebP delegate"
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Verify responsive images 🔍
+        run: |
+          missing=0
+          for f in _site/assets/img/publication_preview/*.png; do
+            [ -e "$f" ] || continue
+            base="${f%.png}"
+            for w in 480 800 1400; do
+              if [ ! -f "${base}-${w}.webp" ]; then
+                echo "::warning::missing responsive variant ${base}-${w}.webp"
+                missing=1
+              fi
+            done
+          done
+          if [ "$missing" -eq 0 ]; then
+            echo "All responsive .webp variants generated."
+          fi
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
