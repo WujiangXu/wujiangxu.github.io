@@ -1118,3 +1118,19 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+// Homepage research areas
+
+.publications.research-areas {
+  .research-area-title {
+    color: var(--global-theme-color);
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .research-area-desc {
+    color: var(--global-text-color-light);
+    margin-bottom: 1rem;
+  }
+}

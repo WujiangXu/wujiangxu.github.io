@@ -1,0 +1,37 @@
+# Research directions shown on the homepage. Papers are attached to a direction
+# via the `area={...}` field in _bibliography/papers.bib, and are listed in bib-file order.
+
+- key: memory
+  title: Agentic Memory
+  description: >
+    How should LLM agents store, organize, and evolve what they experience? I build self-organizing
+    and structured memory systems (A-Mem, GAM, ChronoMem) and long-horizon, multimodal environments
+    for evaluating them (MemGym, MemEye).
+
+- key: evolving
+  title: Self-Evolving Agents & Agentic RL
+  description: >
+    Agents that keep improving from their own experience: stable multi-turn reinforcement learning
+    for LLM agents (EPO), agents that evolve their own harness in open-ended environments (AEL),
+    and introspective search for agentic problem solving (I-MCTS).
+
+- key: harness
+  title: Agent Harness & Infrastructure
+  description: >
+    The system layer around the model that turns an LLM into a working agent: agent operating
+    systems (AIOS), semantic file systems (LSFS), budget-aware multi-LLM routing (OmniRouter),
+    and automatic prompt engineering (APEER).
+
+- key: personal
+  title: Personalized Agents & User Modeling
+  description: >
+    Agents that understand and act on behalf of individual users: user-side agents that shield
+    users from recommender systems (iAgent), long-behavior user modeling (PersonaX), simulating
+    individuals from longitudinal personal data, and recommending agents themselves (AgentSelect).
+
+- key: foundations
+  title: Understanding Foundation Models
+  description: >
+    Looking inside LLMs to understand how they work and where they fail: massive values in
+    attention, out-of-distribution representations, agentic interpretation of SAE features,
+    and moral evaluation, as well as graph and multimodal foundation models.

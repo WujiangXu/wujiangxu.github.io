@@ -1,3 +1,23 @@
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+<div class="publications research-areas">
+  {% for area in site.data.research_areas %}
+    <h3 class="research-area-title">{{ area.title }}</h3>
+    <p class="research-area-desc">{{ area.description }}</p>
+    {% comment %}jekyll-scholar queries are static strings, so each area key is spelled out here.{% endcomment %}
+    {% case area.key %}
+      {% when 'memory' %}
+        {% bibliography --group_by none --query @*[area=memory]* %}
+      {% when 'evolving' %}
+        {% bibliography --group_by none --query @*[area=evolving]* %}
+      {% when 'harness' %}
+        {% bibliography --group_by none --query @*[area=harness]* %}
+      {% when 'personal' %}
+        {% bibliography --group_by none --query @*[area=personal]* %}
+      {% when 'foundations' %}
+        {% bibliography --group_by none --query @*[area=foundations]* %}
+    {% endcase %}
+  {% endfor %}
+  <p class="research-area-desc">
+    Earlier work on cross-domain recommendation and computer vision can be found in the
+    <a href="{{ '/publications/' | relative_url }}">full publication list</a>.
+  </p>
 </div>
