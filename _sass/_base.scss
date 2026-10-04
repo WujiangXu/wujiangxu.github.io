@@ -725,6 +725,15 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+
+        a {
+          color: var(--global-text-color);
+
+          &:hover {
+            color: var(--global-theme-color);
+            text-decoration: none;
+          }
+        }
       }
 
       .author {
@@ -1121,16 +1130,66 @@ swiper-container {
 
 // Homepage research areas
 
-.publications.research-areas {
-  .research-area-title {
-    color: var(--global-theme-color);
-    font-size: 1.25rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+.research-areas {
+  margin-top: 1rem;
+
+  .research-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    .nav-link {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.9rem;
+      transition: all 0.15s ease;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+
+      &.active {
+        color: var(--global-hover-text-color);
+        background-color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
   }
 
   .research-area-desc {
     color: var(--global-text-color-light);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+  }
+
+  .publications {
+    margin-top: 1rem;
+  }
+
+  .research-area-footer {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+}
+
+// Icon links under each publication
+
+.publications ol.bibliography li .links {
+  margin-top: 0.25rem;
+
+  a.icon-link {
+    display: inline-block;
+    color: var(--global-text-color-light);
+    font-size: 1.15rem;
+    margin-right: 0.6rem;
+    vertical-align: middle;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 }

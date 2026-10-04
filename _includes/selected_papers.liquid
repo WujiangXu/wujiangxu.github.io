@@ -1,22 +1,50 @@
-<div class="publications research-areas">
-  {% for area in site.data.research_areas %}
-    <h3 class="research-area-title">{{ area.title }}</h3>
-    <p class="research-area-desc">{{ area.description }}</p>
-    {% comment %}jekyll-scholar queries are static strings, so each area key is spelled out here.{% endcomment %}
-    {% case area.key %}
-      {% when 'memory' %}
-        {% bibliography --group_by none --query @*[area=memory]* %}
-      {% when 'evolving' %}
-        {% bibliography --group_by none --query @*[area=evolving]* %}
-      {% when 'harness' %}
-        {% bibliography --group_by none --query @*[area=harness]* %}
-      {% when 'personal' %}
-        {% bibliography --group_by none --query @*[area=personal]* %}
-      {% when 'foundations' %}
-        {% bibliography --group_by none --query @*[area=foundations]* %}
-    {% endcase %}
-  {% endfor %}
-  <p class="research-area-desc">
+<div class="research-areas">
+  <ul class="nav research-tabs" role="tablist">
+    {% for area in site.data.research_areas %}
+      <li class="nav-item">
+        <a
+          class="nav-link{% if forloop.first %} active{% endif %}"
+          id="tab-{{ area.key }}"
+          data-toggle="pill"
+          href="#area-{{ area.key }}"
+          role="tab"
+          aria-controls="area-{{ area.key }}"
+          aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+          >{{ area.title }}</a
+        >
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="tab-content">
+    {% for area in site.data.research_areas %}
+      <div
+        class="tab-pane fade{% if forloop.first %} show active{% endif %}"
+        id="area-{{ area.key }}"
+        role="tabpanel"
+        aria-labelledby="tab-{{ area.key }}"
+      >
+        <p class="research-area-desc">{{ area.description }}</p>
+        <div class="publications">
+          {% comment %}jekyll-scholar queries are static strings, so each area key is spelled out here.{% endcomment %}
+          {% case area.key %}
+            {% when 'memory' %}
+              {% bibliography --group_by none --query @*[area=memory]* %}
+            {% when 'evolving' %}
+              {% bibliography --group_by none --query @*[area=evolving]* %}
+            {% when 'harness' %}
+              {% bibliography --group_by none --query @*[area=harness]* %}
+            {% when 'personal' %}
+              {% bibliography --group_by none --query @*[area=personal]* %}
+            {% when 'foundations' %}
+              {% bibliography --group_by none --query @*[area=foundations]* %}
+          {% endcase %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <p class="research-area-footer">
     Earlier work on cross-domain recommendation and computer vision can be found in the
     <a href="{{ '/publications/' | relative_url }}">full publication list</a>.
   </p>
